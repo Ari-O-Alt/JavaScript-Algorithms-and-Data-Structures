@@ -7,11 +7,19 @@ const compare = (array1: [], array2: []): boolean => {
   }
   
   for (let value of array1) {
-const correspondentIndex: number;
+    const correspondentIndex: number = array2.indexOf(value ** 2);
+    if (correspondentIndex < 0) {
+     return false;
+    } else {
+     array2.splice(correspondentIndex, 1);
+    }
 
   }
   
   return true
 }
 
-console.log(compare([], []))
+console.log(compare([1, 2, 3, 3], [1, 4, 9, 9])) // returns true
+console.log(compare([1, 2, 3, 3], [1, 4, 9])) // returns false
+
+### Refactored approach - O(n)
