@@ -1,2 +1,19 @@
-### Naive approach - O(n*n)
 #### Problem: buld a function that taxes two strings an in input and determines if for every value in the first array, there's a squared correspondent value in the second array. The frequnecy is important so this means if we have 3 values of 3 in the first array, we should have exactly 3 values of 9 in the second.
+
+
+### Naive approach - O(n*n)
+
+const compare = (array1: [], array2: []): boolean => {
+  if (array1.length !== array2.length) {
+    return false 
+  }
+  
+  for (let value of array1) {
+const correspondentIndex: number;
+
+  }
+  
+  return true
+}
+
+console.log(compare([], []))
