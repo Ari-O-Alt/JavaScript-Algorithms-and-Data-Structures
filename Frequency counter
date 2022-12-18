@@ -8,7 +8,7 @@ const compare = (array1: [], array2: []): boolean => {
   
   for (let value of array1) {
     const correspondentIndex: number = array2.indexOf(value ** 2);
-    if (correspondentIndex < 0) {
+    if (correspondentIndex === -1) {
      return false;
     } else {
      array2.splice(correspondentIndex, 1);
