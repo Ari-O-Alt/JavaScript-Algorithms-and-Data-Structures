@@ -20,8 +20,10 @@ const frequencyCounter = (array1, array2) => {
   return true;
 };
 
+// TESTS
 console.log(frequencyCounter([1, 2, 3, 3], [1, 4, 9, 9])); // returns true
 console.log(frequencyCounter([1, 2, 3, 3], [1, 4, 9])); // returns false
+console.log(frequencyCounter([], [])); // returns true
 
 // TYPESCRIPT VERSION
 
