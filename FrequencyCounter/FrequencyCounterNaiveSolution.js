@@ -2,7 +2,6 @@
  */
 
 // Naive approach - O(n*n)
-
 const frequencyCounter = (array1, array2) => {
   if (array1.length !== array2.length) {
     return false;
@@ -26,7 +25,6 @@ console.log(frequencyCounter([1, 2, 3, 3], [1, 4, 9])); // returns false
 console.log(frequencyCounter([], [])); // returns true
 
 // TYPESCRIPT VERSION
-
 /* const frequencyCounter = (array1: [], array2: []): boolean => {
     if (array1.length !== array2.length) {
       return false 

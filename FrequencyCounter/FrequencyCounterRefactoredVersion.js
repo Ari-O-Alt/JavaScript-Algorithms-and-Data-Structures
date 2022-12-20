@@ -35,7 +35,7 @@ console.log(frequencyCounter([4, 3, 3], [16, 9, 9])); // returns true
 console.log(frequencyCounter([4, 3, 3], [16, 9, 9, 10])); // returns false
 console.log(frequencyCounter([], [])); // returns true
 
-// Typescript solution
+// TYPESCRIPT VERSION
 /* const frequencyCounter = (array1: [], array2: []): boolean => {
 
 if (array1.length !== array2.length) {
