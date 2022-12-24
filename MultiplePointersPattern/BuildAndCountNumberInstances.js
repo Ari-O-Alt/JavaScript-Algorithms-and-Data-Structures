@@ -1,5 +1,6 @@
 /**
  * Create a function that takes a sorted array of numbers as input and builds and returns the number of values fund in that array
+ * ONLY WORKS with sorted arrays
  */
 
 const buildAndCountNumberInstances = (arrayOfNumbers) => {
